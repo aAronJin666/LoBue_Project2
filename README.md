@@ -1,6 +1,6 @@
 # LoBue_Project2
 
-## **OVERVIEW** 
+## **MOTIVATION** 
 This script was written to calculate the GC content of all the sequences in any given file. In order to run this script 
 you must include the file containing the sequences as a command line argument. Also, there is a limit of one argument per execution.
 ### **ARGUMENT VALIDATION**
@@ -73,4 +73,5 @@ you must include the file containing the sequences as a command line argument. A
     echo -e "${names[$i]}\t$GCpercent%" >> GCcount.txt
 
     done
+    
 
